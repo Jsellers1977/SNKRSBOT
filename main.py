@@ -224,10 +224,10 @@ def wait_until_visible(driver, xpath=None, class_name=None, duration=10000, freq
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--username", required=True)
-    parser.add_argument("--password", required=True)
-    parser.add_argument("--url", required=True)
-    parser.add_argument("--shoe-size", required=True)
+    parser.add_argument("Codiakchamp", required=True)
+    parser.add_argument("Champion303", required=True)
+    parser.add_argument("https://www.snkrs.com/en/nike/nike-air-max-90-qs-python-9652.html", required=True)
+    parser.add_argument("US 13", required=True)
     parser.add_argument("--login-time", default=None)
     parser.add_argument("--release-time", default=None)
     parser.add_argument("--screenshot-path", default=None)
